@@ -1,5 +1,3 @@
-console.log(`
-
 # CryptoWatcher 📈💰
 
 CryptoWatcher is a web application built with NestJS and React, allowing users to monitor real-time price fluctuations of cryptocurrencies.
@@ -19,18 +17,21 @@ CryptoWatcher is a web application built with NestJS and React, allowing users t
 1. Clone the GitHub repository.
 
 2. Go to the backend folder and run the following commands to start the API server:
-
+``` 
    cd backend
    npm install
    npm run start:dev
-
+```
 3. Go to the frontend folder and run the following commands to start the frontend application:
-
+```
    cd frontend
    npm install
    npm start
-
-4. Open your browser and go to the URL: http://localhost:3000.
+```
+4. Open your browser and go to the URL:
+``` 
+http://localhost:3000
+```
 
 ## Tasks Checklist ✅
 
@@ -57,10 +58,12 @@ Here is a checklist of tasks to complete the project:
 - [ ] Design smooth navigation and user-friendly interface.
 - [ ] Add unit tests for key components and functionalities.
 
-Feel free to customize this task checklist based on your specific needs and preferences.
+## Need Help? Contact the Developer! 🙋‍♂️
 
----
+If you have any questions, issues, or feature requests, feel free to contact the developer of this project.
 
-Don't forget to update the README as you progress through the project by checking off completed tasks. This will help other contributors and recruiters understand the project status and implemented features.
+- Name: David V.
+- Email: davidvanmak+cryptotracker gmail com
+- GitHub: [Slourp](https://github.com/Slourp/)
 
-`);
+The developer is always happy to help! 😊
