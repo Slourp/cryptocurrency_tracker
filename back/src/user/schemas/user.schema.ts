@@ -6,6 +6,18 @@ export enum Roles {
   USER = 'User',
 }
 
+export enum NewsletterOptions {
+  NONE = 'None',
+  DAILY = 'Daily',
+  WEEKLY = 'Weekly',
+}
+
+export enum AlertOptions {
+  NONE = 'None',
+  EMAIL = 'Email',
+  SMS = 'SMS',
+}
+
 @Schema({
   timestamps: true,
 })
@@ -30,12 +42,18 @@ export class User {
 
   @Prop({ type: [{ crypto: String, amount: Number }] })
   wallets: { crypto: string; amount: number }[];
+
+  @Prop({ enum: NewsletterOptions, default: NewsletterOptions.NONE })
+  newsletter: NewsletterOptions;
+
+  @Prop({ enum: AlertOptions, default: AlertOptions.NONE })
+  getAlert: AlertOptions;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
 
 /**
- * !TODO refactor to use a nestJS middleware to encrypt password
+ * !TODO refactor to use a NestJS middleware to encrypt password
  */
 UserSchema.pre('save', async function (next) {
   if (!this.isModified('password')) return next();
