@@ -10,6 +10,23 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "paths": {
+      "@app/*": [
+        "src/*"
+      ],
+      "@schemas/*": [
+        "src/book/schemas/*"
+      ],
+      "@dto/*": [
+        "src/book/dto/*"
+      ],
+      "@controller/*": [
+        "src/book/controllers/*"
+      ],
+      "@services/*": [
+        "src/book/services/*"
+      ]
+    },
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": false,
