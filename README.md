@@ -19,25 +19,25 @@ Features ✨
 
 Backend Development Checklist 🚀
 
-- [--] Install NestJS CLI and create a new project.
-- [--] Understand the project structure and main components: modules, controllers, and services.
-- [--] Set up user authentication:
-- [--] Install and configure the Passport module.
-- [--] Implement the JWT strategy for authentication.
-- [--] Create the User module, controller, and service.
-- [--] Implement endpoints for user registration, login, and profile update.
-- [--] Create a new module, controller, and service for consuming cryptocurrency data.
-- [--] Implement API endpoints for retrieving cryptocurrency data.
-- [--] Integrate with an external cryptocurrency API (e.g., CoinGecko, CoinMarketCap).
-- [--] Set up TypeORM and PostgreSQL:
-- [--] Install and configure TypeORM.
-- [--] Define entities for User and relevant data models.
-- [--] Implement database operations in the services.
+- [X] Install NestJS CLI and create a new project.
+- [X] Understand the project structure and main components: modules, controllers, and services.
+- [X] Set up user authentication:
+- [X] Install and configure the Passport module.
+- [X] Implement the JWT strategy for authentication.
+- [X] Create the User module, controller, and service.
+- [X] Implement endpoints for user registration, login, and profile update.
+- [X] Create a new module, controller, and service for consuming cryptocurrency data.
+- [X] Implement API endpoints for retrieving cryptocurrency data.
+- [X] Integrate with an external cryptocurrency API (e.g., CoinGecko, CoinMarketCap).
+- [X] Set up Mongo:
+- [X] Install and configure Mongoose.
+- [X] Define entities for User and relevant data models.
+- [X] Implement database operations in the services.
 - [--] Implement error handling and validation:
 - [--] Use the built-in NestJS validation pipe.
 - [--] Handle common HTTP exceptions.
 - [--] Implement scheduled tasks (if applicable):
-- [--] Install and configure the Schedule module.
+- [X] Install and configure the Schedule module.
 - [--] Create a task for periodic cryptocurrency data updates.
 - [--] Write unit tests for the services and controllers:
 - [--] Install and configure Jest.
@@ -47,14 +47,14 @@ Backend Development Checklist 🚀
 - [--] Schedule recurring tasks like data updates and cache clearing.
 - [--] Commands:
 - [--] Create custom CLI commands for specific app-related tasks.
-- [--] Events and Event Handling:
-- [--] Utilize the event system to handle and respond to app events.
+- [X] Events and Event Handling:
+- [X] Utilize the event system to handle and respond to app events.
 - [--] Guards:
-- [--] Set up guards to protect routes and enforce authorization rules.
+- [X] Set up guards to protect routes and enforce authorization rules.
 - [--] Data Seeding:
 - [--] Implement data seeding to populate the database with initial data.
-- [--] Pagination:
-- [--] Implement pagination for displaying a paginated list of cryptocurrencies or news.
+- [X] Pagination:
+- [X] Implement pagination for displaying a paginated list of cryptocurrencies or news.
 - [--] Email:
 - [--] Integrate email sending functionality for notifications, registration confirmations, password resets, etc.
 - [--] File Upload:
