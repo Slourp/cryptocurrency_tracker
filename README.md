@@ -1,13 +1,10 @@
-🚀 Crypto Currency Explorer App 🌟
+# CryptoWatcher 📈💰
+
+## 🚀 Crypto Currency Explorer App 🌟
 
 Welcome to the Crypto Currency Explorer App! This application allows you to explore and stay updated on various cryptocurrencies conveniently. With the power of NestJS, a robust and scalable backend API, you can experience a seamless and secure crypto journey. The app provides essential features such as cryptocurrency data retrieval, market information, historical performance, and more.
 
-Features ✨…
-🚀 Crypto Currency Explorer App 🌟
-
-Welcome to the Crypto Currency Explorer App! This application allows you to explore and stay updated on various cryptocurrencies conveniently. With the power of NestJS, a robust and scalable backend API, you can experience a seamless and secure crypto journey. The app provides essential features such as cryptocurrency data retrieval, market information, historical performance, and more.
-
-Features ✨
+### Features ✨
 
 - 💰 Crypto Currency Data Retrieval: Access a vast range of cryptocurrency data, including market prices, trading volumes, and other relevant metrics.
 - 📈 Detailed Crypto Currency Information: Explore comprehensive details about each cryptocurrency, including historical performance charts, market capitalization, and circulating supply.
@@ -17,7 +14,7 @@ Features ✨
 - ⚙️ User Preferences: Customize your app experience by setting your preferred language, currency, and display options.
 - 🌐 External API Integration: Connect with external APIs to fetch cryptocurrency data and enhance the app's functionality.
 
-Backend Development Checklist 🚀
+### Backend Development Checklist 🚀
 
 - [X] Install NestJS CLI and create a new project.
 - [X] Understand the project structure and main components: modules, controllers, and services.
