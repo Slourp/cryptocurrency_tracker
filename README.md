@@ -64,4 +64,12 @@ Note: Some checklist items may require further development and implementation. F
 
 For installation and running instructions, please refer to the documentation.
 
+If you have any questions, issues, or feature requests, feel free to contact the developer of this project.
+
+- Name: David V.
+- Email: davidvanmak+cryptotracker gmail com
+- GitHub: [Slourp](https://github.com/Slourp/)
+
+The developer is always happy to help! 😊
+
 Happy coding! 😊
