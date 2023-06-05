@@ -1,12 +1,10 @@
-import { EmailCommandService } from '@app/email/services/email-command/email-command.service';
-import { EmailQueryService } from '@app/email/services/email-query/email-query.service';
 import { EmailService } from '@app/email/services/email/email.service';
-import { AlertTask } from '@app/email/tasks/alert.task';
-import { NewsletterTask } from '@app/email/tasks/newsletter.task';
-import { EmailSchema } from '@app/user/schemas/user.schema';
+import { AlertTask, NewsletterTask } from '@app/email/tasks/';
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-import { EmailController } from './controller/email/email.controller';
+import { EmailController } from '@app/email/controller/email/email.controller';
+import { EmailSchema } from '@app/email/schemas/email.schema';
+import { EmailCommandService, EmailQueryService } from '@app/email/services';
 
 @Module({
   imports: [

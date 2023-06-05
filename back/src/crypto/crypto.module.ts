@@ -1,16 +1,18 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { GetCryptoController } from './controller/get-crypto/get-crypto.controller';
-import { CommandServiceService } from './command-service/command-service.service';
-import { QueryServiceService } from './query-service/query-service.service';
 import { CoinMarketCapAPI } from './api/coinmarketcap.api';
+import {
+  CryptoCommandServiceService,
+  CryptoQueryServiceService,
+} from '@app/crypto/services';
 
 @Module({
   imports: [ConfigModule],
   controllers: [GetCryptoController],
   providers: [
-    QueryServiceService,
-    CommandServiceService,
+    CryptoQueryServiceService,
+    CryptoCommandServiceService,
     {
       provide: CoinMarketCapAPI,
       useFactory: (configService: ConfigService) => {
